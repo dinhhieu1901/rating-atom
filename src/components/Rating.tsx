@@ -4,7 +4,7 @@ import Icon from "./Icon";
 const Rating = () => {
   return (
     <>
-      <div className="h-[50%] flex justify-center gap-6 cursor-pointer bg-[#FFFFFF]">
+      <div className="h-[50%] flex justify-center gap-6  bg-[#FFFFFF]">
         <Icon icon={Sad} label="Buồn" />
         <Icon icon={Smile} label="Haha" />
         <Icon icon={Cry} label="Khóc" />
